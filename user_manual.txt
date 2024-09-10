@@ -1,0 +1,9 @@
+Bấm q để xóa box hiện tại
+Bấm b để lưu các giá trị điểm độ nét làm tham chiếu
+
+- Với mỗi frame ảnh, điều chỉnh camera sao cho quả bóng nằm trong khung hình cho trước. 
+- Các giá trị: laplacian_var, brightness, darkness, blurriness, entropy được tính toán và so sánh với giá trị tham chiếu được lưu từ trước.
+- Xác định thông số của camera đã phù hợp hay chưa dựa trên kết quả so sánh. 
+
+Yêu cầu:
+- Bóng giữ nguyên vị trí, chỉ chỉnh vị trí của camera để chỉnh quả bóng vào vị trí xác định.
